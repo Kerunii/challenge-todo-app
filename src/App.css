@@ -31,3 +31,12 @@
     transform: rotate(360deg);
   }
 }
+
+/*TODO*/
+.todo {
+  display: inline;
+}
+
+.todo > li > div {
+  flex-direction: row-reverse;
+}
